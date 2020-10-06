@@ -346,6 +346,12 @@ fieldset[disabled] .btn-theme {
   }
 }
 
+.round {
+  border-radius: 100px; /* Радиус скругления */
+  border: 3px solid grey; /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
 .promo-block .promo-block-title {
   font-size: 70px;
   line-height: 1;
@@ -964,8 +970,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .content-lg {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*------------------------------------------------------------------
